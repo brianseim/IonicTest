@@ -1,0 +1,34 @@
+page-research {
+    .research-row
+	{
+		background-color: $theme-color-3;
+		padding: 16px 12px;
+		height: 20%;
+		align-content: space-around;
+
+		.research-title
+		{
+			color: #FFF;
+			font-weight: 600;
+			font-size: 2.4rem;
+			margin: 0px;
+			text-align: center;
+		}
+
+		.research-description
+		{
+			color: #FFF;
+			font-size: 1.6rem;
+			margin: 0px;
+			text-align: center;
+		}
+    }
+    .research-row-form
+	{
+		background-color: $white-c;
+		padding: 16px 12px;
+		height: 60%;
+		align-content: space-around;
+	}
+
+}

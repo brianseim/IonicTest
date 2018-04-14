@@ -1,0 +1,67 @@
+<!--
+  Generated template for the ResearchPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>research</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-row class="research-row">
+    <ion-col no-padding col-12>
+      <h2 class="research-title">Start Researching on Biz Idea!</h2>
+    </ion-col>
+    <ion-col no-padding col-12>
+      <p class="research-description">
+        Enter What and Where of your business idea
+      </p>
+    </ion-col>
+  </ion-row>
+  <ion-row class="research-row-form">
+    <form [formGroup]="researchForm" class="modal-form" (ngSubmit)="onSubmit(researchForm.value)" >
+      <ion-row>
+        <ion-col offset-1 col-10>
+          <ion-item class="textarea-item">
+            <ion-label floating>Select Biz Type</ion-label>
+            <ion-select interface="action-sheet" formControlName="whatBiz">
+              <ion-option value="farming">Farming</ion-option>
+              <ion-option value="foodtruck">Food Truck</ion-option>
+              <ion-option value="lawn">Lawn Mowing</ion-option>
+              <ion-option value="moving">Moving</ion-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+        <ion-col offset-1 col-10>
+          <ion-item class="textarea-item">
+            <ion-label floating>Select City</ion-label>
+            <ion-select interface="action-sheet" formControlName="whereBiz">
+              <ion-option value="aurora">Aurora</ion-option>
+              <ion-option value="broomfield">Broomfield</ion-option>
+              <ion-option value="boulder">Boulder</ion-option>
+              <ion-option value="denver">Denver</ion-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+        <ion-col offset-1 col-10>
+          <button ion-button block type="submit" [disabled]="!researchForm.valid" color="ask">
+            <b>Submit</b>
+          </button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-row>
+  <ion-footer>
+    <ion-toolbar>
+      <button ion-button block color="ask">
+        <b>Have a Question? Ask!</b>
+      </button>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>

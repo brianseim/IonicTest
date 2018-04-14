@@ -1,0 +1,66 @@
+{
+    "categories": [
+      {
+        "slug": "LAWN",
+        "title": "Lawn Mowing / Snow Removal",
+        "description": "Lawn Mowing over Summer and Snow Removal over winter",
+        "background": "#0077ff",
+        "tags": [
+          {
+            "name": "All Season"
+          },
+          {
+            "name": "Low Investment"
+          },
+          {
+            "name": "Requires Funding"
+          }
+        ]
+      },
+      {
+        "slug": "MOVING",
+        "title": "Moving",
+        "description": "Moving Home with or without a Truck",
+        "background": "#F84C61",
+        "tags":[
+          {
+            "name": "No Investment"
+          },
+          {
+            "name": "QuickStarter"
+          }
+        ]
+      },
+      {
+        "slug": "FOODTRUCK",
+        "title": "Food Truck",
+        "description": "Start a Food Truck serving meals in a truck",
+        "background": "#16144A",
+        "tags": [
+          {
+              "name": "Cooking"
+          },
+          {
+              "name": "Medium Investment"
+          },
+          {
+              "name": "Food Certification"
+          }
+        ]
+      },
+      {
+        "slug": "FRANCHISE",
+        "title": "Franchise",
+        "description": "Create a Franchise",
+        "background": "#432B9C",
+        "tags": [
+          {
+              "name": "Proven Business Model"
+          },
+          {
+              "name": "High Investment"
+          }
+        ]
+      }
+    ]
+  }
